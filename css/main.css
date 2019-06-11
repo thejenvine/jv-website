@@ -1,0 +1,189 @@
+/***** BASE STYLES *****/
+
+body {
+    color: #2b2b2b;
+    font-family: 'Lora', serif;
+}
+
+#work {
+    height: 500px;
+}
+
+#info {
+    height: 370px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url('../img/hero-img.png');
+    background-size: cover;
+    height: 360px;
+}
+
+header h1 {
+    color: white;
+    float: left;
+    font-family: 'Megrim', cursive;
+    font-size: 36px;
+    padding: 0px;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Megrim', cursive;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 80px;
+    text-decoration: none;
+}
+
+header h2 {
+    clear: both;
+    color: #e7efcd;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0px 0px 0px 150px;
+    width: 1000px;
+}
+
+header h2 span {
+    color: white;
+    font-family: 'Sofia', cursive;
+    font-size: 36px;
+    padding: 0px 0px 0px 200px;
+    width: 1000px;
+}
+
+/***** WORK & INFO *****/
+
+#work, #info {
+    text-align: center;
+    padding-top: 85px;
+}
+
+#work h3, #info h3 {
+    margin: 5px;
+    padding: 10px;
+    /***border: 6px dotted #e7efcd;***/
+    font-size: 30px
+}
+
+#work .full-width {
+    padding: 30px 0;
+}
+
+#work p, #info p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+
+#work img, #about, #contact {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/***** INFO *****/
+
+#info, footer {
+    background-color: #b5cfce;
+}
+
+#info img#me {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#about span, #contact span {
+    font-family: 'Megrim', cursive;
+    font-size: 23px;
+}
+
+#about ul, #contact ul {
+    padding-left: 30px;
+}
+
+#about a {
+    color: #e7efcd;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/***** EMAIL ICON
+
+#about img {
+    height: 80px;
+    width: 80px;
+}
+
+Not lining up with email address *****/
+
+#about p {
+    font-size: 18px;
+}
+
+#about p#secret {
+    color: #e7efcd;
+    font-family: 'Sofia', cursive;
+}
+
+#about ul {
+    /***font-family: 'Sofia', cursive;***/
+    margin-left: 60px;
+    text-align: left;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul img {
+    height: 90px;
+    width: 90px;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+/***** FOOTER *****/
+
+footer {
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Megrim', cursive;
+}
